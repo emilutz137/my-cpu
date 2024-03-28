@@ -40,4 +40,4 @@ La adresa 3: Instructiune pe 15 biti ce comanda R3 = RO & R1 (scrierea la adresa
 Modul in care sunt instantiate si conectate toate celelelalte module conform schemei.
 
 ---
-© 2024 Numele Tău
+© 2024 Florea Emanuel
