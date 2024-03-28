@@ -1,6 +1,6 @@
 # Proiectul Meu 
 
-![Imagine Proiect](https://i.ytimg.com/vi/YkgkThdzX-8/maxresdefault.jpg)
+![Imagine Proiect](my-cpu/Picture1.png)
 
 ## Descriere
 Proiectul este un circuit ce urmeaza un model Von Neumann.
