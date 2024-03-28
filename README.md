@@ -7,7 +7,7 @@ Proiectul este un circuit ce urmeaza un model Von Neumann.
 ## Design
 Pentru implementarea circuitului de mai jos, se vor implementa in fisiere separate modulele Counter, ROM, RegFile, MUX si ALU, apoi se vor instantia intr-un modul TOP, conform schemei de mai jos.
 
-![Imagine Proiect](my-cpu\Picture1.png)
+![alt text](https://github.com/emilutz137/my-cpu/blob/main/Picture1.png?raw=true)
 
 ### Counter
 Numarator pe 32 biti, cu reset sincron activ in 1. Numaratorul va numara doar daca enable este 1.
