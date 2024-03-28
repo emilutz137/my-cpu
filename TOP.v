@@ -17,16 +17,12 @@ module top(
     .reset(reset),
     .clock(clock),
     .enable(enable)
-
     );
-    
-    
-    
+     
     ROM ROM(
     .instr(w2),
     .instr_addr(w1[26:25])
     );
-    
     
      MUX MUX(
     .out(w3),
@@ -43,9 +39,7 @@ module top(
     .in0(w4),
     .in1(w5),
     .opcode(w2[14:13])
-
     );
-    
     
     RegFile RegFile(
     .op1(w4),
@@ -56,7 +50,6 @@ module top(
     .write_en(w2[8]),
     .addr_read1(w2[10:9]),
     .addr_read2(w2[12:11])
-
     );
 
 endmodule
