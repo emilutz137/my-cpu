@@ -35,7 +35,7 @@ La adresa 2: Instructiune pe 15 biti ce comanda R2 = R0+ R1 (scrierea la adresa 
 La adresa 3: Instructiune pe 15 biti ce comanda R3 = RO & R1 (scrierea la adresa 3 a RegFile a rezultatului operatiei RO & R1).
 
 
-##TOP
+## TOP
 Modul in care sunt instantiate si conectate toate celelelalte module conform schemei.
 
 ---
