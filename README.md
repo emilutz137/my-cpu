@@ -22,18 +22,27 @@ Multiplexor cu patru intrari pe 4 biti.
 
 ### ALU
 Unitate aritmetico-logica ce realizeaza urmatoarele operatii:
+
 (carry, result) = in0+ in1 cand opcode este 2'b00;
+
 result = in0 - inl cand opcode este 2'b01;
+
 result = in0 & in1 cand opcode este 2'b10;
+
 result = 0 cand opcode este 2'b11;
 
 
 ### ROM
 Memorie ROM 4x15b ce contine instructiunile pentru a comanda intregul circuit. La cele 4 adrese ale sale va contine urmatoarea secventa de instructiuni:
+
 La adresa 0: Instructiune pe 15 biti ce comanda RO = 4'd10 (scrierea la adresa 0 a RegFile a datei 4'd10).
+
 La adresa 1: Instructiune pe 15 biti ce comanda R1 = data_in (scrierea la adresa 1 a RegFile a datei de intrare de pe data_in).
+
 La adresa 2: Instructiune pe 15 biti ce comanda R2 = R0+ R1 (scrierea la adresa 2 a RegFile a rezultatului operatiei RO+ R1).
+
 La adresa 3: Instructiune pe 15 biti ce comanda R3 = RO & R1 (scrierea la adresa 3 a RegFile a rezultatului operatiei RO & R1).
+
 
 
 ### TOP
